@@ -1,0 +1,30 @@
+# --- Go ---
+/bin/
+/pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# --- Environment & Secrets ---
+.env
+.env.local
+
+# --- Automation State (IMPORTANT) ---
+cookies.json
+state.json
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
